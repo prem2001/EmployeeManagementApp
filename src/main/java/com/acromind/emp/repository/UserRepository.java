@@ -1,9 +1,8 @@
-package com.in28minutes.learnspringboot.courses.repository;
+package com.acromind.emp.repository;
 
 import org.springframework.data.repository.CrudRepository;
 
-
-import com.in28minutes.learnspringboot.model.User;
+import com.acromind.emp.model.User;
 
 public interface UserRepository extends CrudRepository<User, Integer> {
 

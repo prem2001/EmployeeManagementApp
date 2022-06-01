@@ -1,4 +1,4 @@
-package com.in28minutes.learnspringboot.courses.controller;
+package com.acromind.emp.controller;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -13,8 +13,14 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.in28minutes.learnspringboot.courses.repository.UserRepository;
-import com.in28minutes.learnspringboot.model.User;
+import com.acromind.emp.dto.EmployeeLoginRequestDto;
+import com.acromind.emp.dto.EmployeeLoginResponseDto;
+import com.acromind.emp.dto.EmployeeRequestDto;
+import com.acromind.emp.dto.EmployeeResponseDto;
+import com.acromind.emp.model.RegisterModel;
+import com.acromind.emp.model.User;
+import com.acromind.emp.repository.RegisterRepository;
+import com.acromind.emp.repository.UserRepository;
 
 @RestController
 public class EmployeeController {

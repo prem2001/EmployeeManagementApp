@@ -1,4 +1,4 @@
-package com.in28minutes.learnspringboot;
+package com.acromind.emp;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

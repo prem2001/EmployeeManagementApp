@@ -1,4 +1,4 @@
-package com.in28minutes.learnspringboot.model;
+package com.acromind.emp.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

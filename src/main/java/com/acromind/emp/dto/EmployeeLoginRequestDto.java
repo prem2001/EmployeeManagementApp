@@ -1,4 +1,4 @@
-package com.in28minutes.learnspringboot.courses.controller;
+package com.acromind.emp.dto;
 
 public class EmployeeLoginRequestDto {
 	private String emailId;
