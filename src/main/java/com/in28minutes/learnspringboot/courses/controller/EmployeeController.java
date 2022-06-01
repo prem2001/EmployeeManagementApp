@@ -41,7 +41,6 @@ public class EmployeeController {
 			response.setMessage("Register Successfully");
             response.setIsSuccess(true);
 			registerRepository.save(model);
-			
 		} else {
 		
 			response.setMessage("Already exist");
